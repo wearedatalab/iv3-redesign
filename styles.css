@@ -125,9 +125,11 @@ em { font-style: italic; font-family: var(--f-display); font-weight: 400; }
   padding: 14px var(--pad-x);
   border-bottom: 1px solid var(--line);
 }
-.brand-logo { display: block; }
-.foot .brand-logo rect { fill: transparent; }
-.foot .brand-logo text[fill="#ffffff"] { fill: #ffffff; }
+.brand-logo { display: block; height: 34px; width: auto; }
+.nav .brand-logo--dark { display: none; }
+.nav.scrolled .brand-logo--light { display: none; }
+.nav.scrolled .brand-logo--dark { display: block; }
+.foot .brand-logo { height: 38px; }
 .nav__inner {
   display: flex;
   align-items: center;
