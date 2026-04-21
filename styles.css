@@ -116,10 +116,8 @@ em { font-style: italic; font-family: var(--f-display); font-weight: 400; }
   padding: 22px var(--pad-x);
   transition: all .4s var(--ease);
   color: var(--white);
-  mix-blend-mode: difference;
 }
 .nav.scrolled {
-  mix-blend-mode: normal;
   background: rgba(244, 241, 236, 0.92);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
@@ -127,6 +125,9 @@ em { font-style: italic; font-family: var(--f-display); font-weight: 400; }
   padding: 14px var(--pad-x);
   border-bottom: 1px solid var(--line);
 }
+.brand-logo { display: block; }
+.foot .brand-logo rect { fill: transparent; }
+.foot .brand-logo text[fill="#ffffff"] { fill: #ffffff; }
 .nav__inner {
   display: flex;
   align-items: center;
