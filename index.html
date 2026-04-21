@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IV3 Arquitectura — Diseño y Construcción en Colombia</title>
+<meta name="description" content="Firma colombiana de arquitectura. Proyectos residenciales, educativos y comerciales con alta calidad espacial y conciencia del entorno.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ====== PROGRESS BAR ====== -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ====== HEADER ====== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#inicio" class="nav__logo" aria-label="IV3 Arquitectura">
+      <svg width="170" height="34" viewBox="0 0 340 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <text x="0" y="52" font-family="Inter, Arial, sans-serif" font-weight="900" font-size="58" letter-spacing="-1" fill="currentColor">IV</text>
+        <text x="78" y="56" font-family="Inter, Arial, sans-serif" font-weight="900" font-size="66" fill="#f0a23e">3</text>
+        <text x="130" y="48" font-family="Fraunces, Georgia, serif" font-style="italic" font-weight="400" font-size="30" fill="currentColor">Arquitectura</text>
+      </svg>
+    </a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#proyectos">Proyectos</a>
+      <a href="#trayectoria">Trayectoria</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#blog">Ideas</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="nav__actions">
+      <a href="#" class="nav__pill" aria-label="Pagos PSE">Pagos PSE</a>
+      <a href="#contacto" class="nav__cta">
+        <span>Agenda tu cita</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <button class="nav__burger" id="burger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ====== HERO ====== -->
+<section class="hero" id="inicio">
+  <div class="hero__media">
+    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2000&q=80" alt="Proyecto arquitectónico IV3">
+    <div class="hero__grid"></div>
+  </div>
+
+  <div class="hero__content">
+    <div class="hero__meta">
+      <span class="tag">Desde 1998</span>
+      <span class="dot"></span>
+      <span>Bogotá · Cajicá · Medellín</span>
+    </div>
+
+    <h1 class="hero__title">
+      Construimos<br>
+      <em>espacios con</em><br>
+      propósito.
+    </h1>
+
+    <p class="hero__lead">
+      Diseño, construcción, gerencia y comercialización de proyectos arquitectónicos en Colombia. Una conciencia clara del entorno, una calidad espacial superior.
+    </p>
+
+    <div class="hero__ctas">
+      <a href="#proyectos" class="btn btn--primary">
+        <span>Ver proyectos en venta</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </a>
+      <a href="#nosotros" class="btn btn--ghost">Conocer la firma</a>
+    </div>
+
+    <div class="hero__stats">
+      <div><strong>27+</strong><span>años construyendo</span></div>
+      <div><strong>120</strong><span>proyectos entregados</span></div>
+      <div><strong>4</strong><span>ciudades</span></div>
+    </div>
+  </div>
+
+  <a href="#featured" class="hero__scroll" aria-label="Continuar">
+    <span>Desplaza</span>
+    <svg width="14" height="40" viewBox="0 0 14 40" fill="none"><path d="M7 0v38M1 32l6 6 6-6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+  </a>
+</section>
+
+<!-- ====== FEATURED — PROYECTOS EN VENTA ====== -->
+<section class="featured" id="proyectos">
+  <div class="section__head">
+    <div class="section__label"><span>01</span> En venta ahora</div>
+    <h2 class="section__title">Dos lanzamientos, una <em>visión</em>.</h2>
+    <p class="section__sub">Proyectos cuidadosamente planteados para quienes entienden que el espacio que habitas define cómo vives.</p>
+  </div>
+
+  <div class="featured__grid">
+    <!-- Ciudadela El Dorado -->
+    <article class="project project--lg">
+      <div class="project__image">
+        <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=80" alt="Ciudadela El Dorado">
+        <span class="project__badge">Torre 3 · Lanzamiento</span>
+      </div>
+      <div class="project__body">
+        <div class="project__meta">
+          <span>Cajicá, Cundinamarca</span>
+          <span class="divider"></span>
+          <span>Vivienda</span>
+        </div>
+        <h3>Ciudadela El Dorado</h3>
+        <p>Un nuevo modo de vivir a 20 minutos de Bogotá. Áreas verdes, amenidades premium y apartamentos desde 65 m².</p>
+        <div class="project__footer">
+          <div class="project__price">
+            <span>Desde</span>
+            <strong>$ 290 M</strong>
+          </div>
+          <a href="#" class="link-arrow">Ver detalle <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2"/></svg></a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Atenea -->
+    <article class="project project--lg">
+      <div class="project__image">
+        <img src="https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=80" alt="Atenea">
+        <span class="project__badge project__badge--alt">Último lote</span>
+      </div>
+      <div class="project__body">
+        <div class="project__meta">
+          <span>Bogotá D.C.</span>
+          <span class="divider"></span>
+          <span>Vivienda</span>
+        </div>
+        <h3>Atenea</h3>
+        <p>Un sector privilegiado de la ciudad. Diseño contemporáneo, acabados a la medida y una ubicación que lo cambia todo.</p>
+        <div class="project__footer">
+          <div class="project__price">
+            <span>Desde</span>
+            <strong>$ 520 M</strong>
+          </div>
+          <a href="#" class="link-arrow">Ver detalle <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2"/></svg></a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ====== MANIFESTO ====== -->
+<section class="manifesto" id="featured">
+  <div class="manifesto__wrap">
+    <span class="section__label"><span>02</span> Manifiesto</span>
+    <h2 class="manifesto__text">
+      Diseñar es escuchar. Construimos con <em>una conciencia clara</em> de las posibilidades del medio colombiano, entregando espacios que <em>envejecen bien</em>, con dignidad y sentido.
+    </h2>
+    <div class="manifesto__signature">
+      <div class="sig__line"></div>
+      <span>Equipo IV3 — Bogotá, Colombia</span>
+    </div>
+  </div>
+</section>
+
+<!-- ====== SERVICIOS ====== -->
+<section class="services">
+  <div class="section__head">
+    <div class="section__label"><span>03</span> Qué hacemos</div>
+    <h2 class="section__title">Cuatro pilares, <em>un mismo oficio</em>.</h2>
+  </div>
+
+  <div class="services__grid">
+    <article class="service">
+      <div class="service__num">/01</div>
+      <h3>Diseño</h3>
+      <p>Proyectos arquitectónicos con intención. Desde el trazo inicial hasta el último detalle constructivo.</p>
+      <a href="#" class="link-underline">Portafolio de diseño</a>
+    </article>
+
+    <article class="service">
+      <div class="service__num">/02</div>
+      <h3>Construcción</h3>
+      <p>Obra con los más altos estándares técnicos, cronograma cumplido y presupuesto controlado.</p>
+      <a href="#" class="link-underline">Ver obras</a>
+    </article>
+
+    <article class="service">
+      <div class="service__num">/03</div>
+      <h3>Gerencia</h3>
+      <p>Acompañamos el proyecto de extremo a extremo: viabilidad, permisos, licencias, ejecución y entrega.</p>
+      <a href="#" class="link-underline">Gerencia de obras</a>
+    </article>
+
+    <article class="service">
+      <div class="service__num">/04</div>
+      <h3>Comercialización</h3>
+      <p>Estrategia de venta, posicionamiento y atención al inversionista con transparencia y eficiencia.</p>
+      <a href="#" class="link-underline">Equipo comercial</a>
+    </article>
+  </div>
+</section>
+
+<!-- ====== TRAYECTORIA ====== -->
+<section class="trajectory" id="trayectoria">
+  <div class="section__head">
+    <div class="section__label"><span>04</span> Trayectoria</div>
+    <h2 class="section__title">Proyectos que <em>hablan por sí solos</em>.</h2>
+  </div>
+
+  <div class="trajectory__tabs">
+    <button class="tab tab--active" data-tab="vivienda">Vivienda</button>
+    <button class="tab" data-tab="educativo">Sector educativo</button>
+    <button class="tab" data-tab="comercial">Comercial e industrial</button>
+  </div>
+
+  <div class="trajectory__grid">
+    <article class="tproj tproj--tall">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80" alt="Residencial Los Nogales">
+      <div class="tproj__info">
+        <span>2023 · Vivienda · Bogotá</span>
+        <h4>Residencial Los Nogales</h4>
+      </div>
+    </article>
+    <article class="tproj">
+      <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1400&q=80" alt="Torre Cedros">
+      <div class="tproj__info">
+        <span>2022 · Vivienda · Cajicá</span>
+        <h4>Torre Cedros</h4>
+      </div>
+    </article>
+    <article class="tproj">
+      <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=80" alt="Casas El Retiro">
+      <div class="tproj__info">
+        <span>2021 · Vivienda · Medellín</span>
+        <h4>Casas El Retiro</h4>
+      </div>
+    </article>
+    <article class="tproj tproj--wide">
+      <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1800&q=80" alt="Campus Andino">
+      <div class="tproj__info">
+        <span>2024 · Educativo · Chía</span>
+        <h4>Campus Andino — Ampliación</h4>
+      </div>
+    </article>
+  </div>
+
+  <div class="trajectory__cta">
+    <a href="#" class="btn btn--ghost btn--dark">Ver portafolio completo
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- ====== NOSOTROS / NUMBERS ====== -->
+<section class="about" id="nosotros">
+  <div class="about__grid">
+    <div class="about__text">
+      <span class="section__label"><span>05</span> Nosotros</span>
+      <h2>Somos una firma colombiana que cree en el detalle.</h2>
+      <p>Desde hace casi tres décadas diseñamos, construimos y entregamos proyectos de vivienda, comercio, educación e infraestructura. Nuestro trabajo se sostiene en un equipo técnico exigente y una relación transparente con cada cliente.</p>
+      <div class="about__chips">
+        <span>ISO 9001</span>
+        <span>Cámara Colombiana de la Construcción</span>
+        <span>CCB</span>
+      </div>
+    </div>
+
+    <div class="about__visual">
+      <div class="about__card">
+        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=80" alt="Equipo IV3">
+        <div class="about__quote">
+          <svg width="28" height="20" viewBox="0 0 28 20" fill="none"><path d="M6 20C2.5 17 0 13 0 8 0 4 2 1 6 0l2 3c-2 1-3 3-3 5h4v12H6zm16 0c-3.5-3-6-7-6-12 0-4 2-7 6-8l2 3c-2 1-3 3-3 5h4v12h-3z" fill="currentColor"/></svg>
+          <p>"Diseñar es dejar una huella que dure más que la firma de quien la hizo."</p>
+          <span>— Fundación IV3, 1998</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about__counters">
+    <div><strong>27+</strong><span>años de trayectoria</span></div>
+    <div><strong>120</strong><span>proyectos entregados</span></div>
+    <div><strong>1.4M</strong><span>m² construidos</span></div>
+    <div><strong>4K+</strong><span>familias confiaron</span></div>
+  </div>
+</section>
+
+<!-- ====== BLOG / IDEAS ====== -->
+<section class="ideas" id="blog">
+  <div class="section__head section__head--row">
+    <div>
+      <div class="section__label"><span>06</span> Ideas</div>
+      <h2 class="section__title">Artículos de <em>interés</em>.</h2>
+    </div>
+    <a href="#" class="link-arrow link-arrow--dark">Ver todas <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2"/></svg></a>
+  </div>
+
+  <div class="ideas__grid">
+    <article class="idea">
+      <div class="idea__img">
+        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80" alt="">
+        <span class="idea__tag">Inversión</span>
+      </div>
+      <span class="idea__date">15 Mar 2026 · 4 min</span>
+      <h3>Invierte en Cajicá sin perder tu dinero</h3>
+      <p>Siete señales para evaluar un proyecto inmobiliario antes de firmar la promesa de compraventa.</p>
+      <a href="#" class="link-underline">Leer artículo</a>
+    </article>
+
+    <article class="idea">
+      <div class="idea__img">
+        <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80" alt="">
+        <span class="idea__tag">Proyecto</span>
+      </div>
+      <span class="idea__date">02 Mar 2026 · 6 min</span>
+      <h3>Atenea: un proyecto pensado para la ciudad</h3>
+      <p>Cómo diseñamos un edificio que dialoga con el barrio, la luz natural y la vida de quienes lo habitan.</p>
+      <a href="#" class="link-underline">Leer artículo</a>
+    </article>
+
+    <article class="idea">
+      <div class="idea__img">
+        <img src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=1200&q=80" alt="">
+        <span class="idea__tag">Guía</span>
+      </div>
+      <span class="idea__date">18 Feb 2026 · 8 min</span>
+      <h3>Comprar apartamento nuevo: guía para empezar</h3>
+      <p>Checklist, criterios financieros y legales para que tu primera inversión inmobiliaria sea la correcta.</p>
+      <a href="#" class="link-underline">Leer artículo</a>
+    </article>
+  </div>
+</section>
+
+<!-- ====== CTA / CONTACTO ====== -->
+<section class="cta" id="contacto">
+  <div class="cta__wrap">
+    <div class="cta__copy">
+      <span class="section__label section__label--light"><span>07</span> Hablemos</span>
+      <h2>¿Buscas invertir o <em>construir con nosotros</em>?</h2>
+      <p>Cuéntanos sobre tu interés. Un asesor te contactará en menos de 24 horas con información detallada.</p>
+
+      <div class="cta__info">
+        <a href="tel:573182513388" class="cta__phone">
+          <span>Teléfono comercial</span>
+          <strong>+57 318 251 3388</strong>
+        </a>
+        <a href="tel:6018800249" class="cta__phone">
+          <span>Oficina Bogotá</span>
+          <strong>+57 601 880 0249</strong>
+        </a>
+        <div class="cta__address">
+          <span>Ven a visitarnos</span>
+          <strong>Carrera 8 #38-33, Of. 1201 — Bogotá</strong>
+        </div>
+      </div>
+    </div>
+
+    <form class="cta__form" onsubmit="event.preventDefault(); alert('Gracias, te contactaremos pronto.');">
+      <h3>Te llamamos</h3>
+      <label>
+        <span>Proyecto de interés</span>
+        <select required>
+          <option value="">Selecciona</option>
+          <option>Ciudadela El Dorado</option>
+          <option>Atenea</option>
+          <option>Información general</option>
+        </select>
+      </label>
+      <div class="cta__row">
+        <label><span>Nombre</span><input type="text" required placeholder="Tu nombre"></label>
+        <label><span>Apellido</span><input type="text" required placeholder="Tu apellido"></label>
+      </div>
+      <label><span>Email</span><input type="email" required placeholder="tu@correo.com"></label>
+      <div class="cta__row">
+        <label><span>Celular</span><input type="tel" required placeholder="300 000 0000"></label>
+        <label><span>Ciudad</span><input type="text" required placeholder="Tu ciudad"></label>
+      </div>
+      <label class="cta__check">
+        <input type="checkbox" required>
+        <span>Acepto la <a href="#">Política de Privacidad</a> de IV3 Arquitectura.</span>
+      </label>
+      <button type="submit" class="btn btn--primary btn--block">
+        Enviar solicitud
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2"/></svg>
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- ====== FOOTER ====== -->
+<footer class="foot">
+  <div class="foot__top">
+    <div class="foot__brand">
+      <a href="#inicio" class="nav__logo">
+        <svg width="170" height="34" viewBox="0 0 340 68" fill="none">
+          <text x="0" y="52" font-family="Inter, Arial, sans-serif" font-weight="900" font-size="58" letter-spacing="-1" fill="currentColor">IV</text>
+          <text x="78" y="56" font-family="Inter, Arial, sans-serif" font-weight="900" font-size="66" fill="#f0a23e">3</text>
+          <text x="130" y="48" font-family="Fraunces, Georgia, serif" font-style="italic" font-weight="400" font-size="30" fill="currentColor">Arquitectura</text>
+        </svg>
+      </a>
+      <p>Diseño, construcción, gerencia y comercialización de proyectos arquitectónicos en Colombia.</p>
+    </div>
+
+    <div class="foot__cols">
+      <div>
+        <h5>Navegación</h5>
+        <a href="#proyectos">Proyectos en venta</a>
+        <a href="#trayectoria">Portafolio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#blog">Blog</a>
+      </div>
+      <div>
+        <h5>Servicios</h5>
+        <a href="#">Vivienda</a>
+        <a href="#">Educativo</a>
+        <a href="#">Comercial e industrial</a>
+        <a href="#">Postventas</a>
+      </div>
+      <div>
+        <h5>Contacto</h5>
+        <a href="tel:573182513388">+57 318 251 3388</a>
+        <a href="tel:6018800249">+57 601 880 0249</a>
+        <a href="mailto:contacto@iv3arquitectura.com">contacto@iv3arquitectura.com</a>
+        <a href="#">Cra. 8 #38-33, Of. 1201, Bogotá</a>
+      </div>
+      <div>
+        <h5>Social</h5>
+        <a href="#">YouTube</a>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot__bottom">
+    <span>© 2026 IV3 Arquitectura — Todos los derechos reservados.</span>
+    <div>
+      <a href="#">Política de privacidad</a>
+      <a href="#">Términos</a>
+      <a href="#">Pagos PSE</a>
+    </div>
+  </div>
+
+  <div class="foot__mega" aria-hidden="true">IV3</div>
+</footer>
+
+<!-- ====== FLOATING WHATSAPP ====== -->
+<a href="https://wa.me/573182513388" target="_blank" class="wapp" aria-label="Escríbenos por WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5s-.7-1.6-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.4zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.3c1.4.8 3 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3C4 14.9 3.6 13.5 3.6 12c0-4.6 3.8-8.4 8.4-8.4s8.4 3.8 8.4 8.4-3.8 8.4-8.4 8.4z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
